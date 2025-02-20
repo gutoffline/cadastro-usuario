@@ -1,38 +1,38 @@
 # Cadastro de usuário
 ## Regras
 ### Nome
-- mínimo 5 caracteres
-- máximo 60 caracteres
-- campo obrigatório
+- **mínimo 5 caracteres**
+- **máximo 60 caracteres**
+- **campo obrigatório**
 
 ### E-mail
-- tem que ter @
+- **tem que ter @**
 - não pode e-mail repetido
-- campo obrigatório
-- mínimo 5 caracteres
-- máximo 100 caracteres
+- **campo obrigatório**
+- **mínimo 5 caracteres**
+- **máximo 100 caracteres**
 
 ### Senha
-- mínimo 8 caracteres
-- máximo 60 caracteres
-- campo obrigatório
+- **mínimo 8 caracteres**
+- **máximo 60 caracteres**
+- **campo obrigatório**
 - obrigatório letra maiúscula
 - obrigatório letra caractere especial
 
 ### Confirmar Senha
-- mínimo 8 caracteres
-- máximo 60 caracteres
+- **mínimo 8 caracteres**
+- **máximo 60 caracteres**
 - tem que ser igual a senha
-- obrigatório
+- **obrigatório**
 
 ### Cidade
-- campo obrigatório
+- **campo obrigatório**
 - tem que existir
-- mínimo 2 caracteres 
-- máximo 30 caracteres  
+- **mínimo 2 caracteres**
+- **máximo 30 caracteres**  
 
 ### Estado
-- mínimo 2 caracteres
-- máximo 2 caracteres
-- campo obrigatório
+- **mínimo 2 caracteres**
+- **máximo 2 caracteres**
+- **campo obrigatório**
 - tem que existir
