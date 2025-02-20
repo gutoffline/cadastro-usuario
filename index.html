@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card mb-3" style="max-width: 670px;">
+            <div class="row g-0">
+                <div class="col-4 text-center">
+                    <img src="foto.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h1>Cadastro de Usuário</h1>
+                            <p>Crie sua conta e junte-se à nossa comunidade! Preencha os campos abaixo para começar.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <form id="form" class="row">
+
+                                <div class="mb-3 col-12">
+                                    <div class="form-group left-inner-addon">
+                                        <i class="bi bi-person"></i>
+                                        <input type="text" class="form-control" placeholder="NOME COMPLETO" name="nome"
+                                            id="nome">
+                                    </div>
+                                </div>
+                                <div class="mb-3 col-12">
+                                    <div class="form-group left-inner-addon">
+                                        <i class="bi bi-envelope-at"></i>
+                                        <input type="email" class="form-control" id="email" name="email"
+                                            placeholder="E-MAIL">
+                                    </div>
+                                </div>
+                                <div class="mb-3 col-6">
+                                    <div class="form-group left-inner-addon">
+                                        <i class="bi bi-lock"></i>
+                                        <input type="password" class="form-control" id="senha" name="senha"
+                                            placeholder="SENHA">
+                                    </div>
+                                </div>
+                                <div class="mb-3 col-6">
+                                    <div class="form-group left-inner-addon">
+                                        <i class="bi bi-lock-fill"></i>
+                                        <input type="password" class="form-control" id="confirmar_senha"
+                                            name="confirmar_senha" placeholder="CONFIRMAR SENHA">
+                                    </div>
+                                </div>
+                                <div class="mb-3 col-8">
+                                    <div class="form-group left-inner-addon">
+                                        <i class="bi bi-geo-alt"></i>
+                                        <input type="text" class="form-control" id="cidade" name="cidade"
+                                            placeholder="CIDADE">
+                                    </div>
+                                </div>
+                                <div class="mb-3 col-4">
+                                    <div class="form-group left-inner-addon">
+                                        <i class="bi bi-geo-alt-fill"></i>
+                                        <input type="text" class="form-control" id="estado" name="estado"
+                                            placeholder="ESTADO">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+</body>
+
+</html>
