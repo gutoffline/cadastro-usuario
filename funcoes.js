@@ -1,5 +1,5 @@
-function fnMin(qtd_minima , valor){
-    if(valor.length < qtd_minima){
+function fnValidarMinimoDeCaracteres(minimo_de_caracteres , valor_do_campo){
+    if(valor_do_campo.length < minimo_de_caracteres){
         return false;
     }else{
         return true;
