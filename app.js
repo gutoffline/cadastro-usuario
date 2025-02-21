@@ -31,3 +31,13 @@ document.getElementById("confirmar_senha").addEventListener("blur", function(){
         fnAdicionarMensagemDeErro("mensagem-erro-confirmar-senha", "A senha precisa ter pelo menos um caracter especial")
     }   
 })
+
+document.getElementById("email").addEventListener("blur", function(){
+    fnAdicionarMensagemDeErro("mensagem-erro-email", "limpar")
+
+    let emailvalido = fnValidarEmail(this.value);
+    if(emailvalido == false){
+        fnAdicionarMensagemDeErro("mensagem-erro-email", "email inválido")
+    }
+
+})
