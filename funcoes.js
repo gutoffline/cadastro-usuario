@@ -6,7 +6,7 @@ function fnValidarMinimoDeCaracteres(minimo_de_caracteres , valor_do_campo){
     }
 }
 
-function fnValidarCampoObrigatorio(valor_do_campo){
+function fnValidarCampoObrigatorio(valor_do_campo){ 
     if(valor_do_campo.trim().length == 0){
         return false;
     }else{
