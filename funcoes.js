@@ -36,3 +36,12 @@ function fnValidarSenhaIgual(confirmar_senha, senha){
         return true;
     }
 }
+
+function fnValidarSenhaMaiuscula(senha){
+    let regex = /[A-Z]/;
+    if(regex.test(senha)){
+        return true;
+    }else{
+        return false;
+    }
+}
