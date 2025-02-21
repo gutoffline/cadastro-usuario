@@ -45,3 +45,12 @@ function fnValidarSenhaMaiuscula(senha){
         return false;
     }
 }
+
+function fnValidarSenhaCaracterEspecial(senha){
+    let regex = /[^a-zA-Z0-9]/;
+    if(regex.test(senha)){
+        return true;
+    }else{
+        return false;
+    }
+}

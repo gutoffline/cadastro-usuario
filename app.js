@@ -25,4 +25,9 @@ document.getElementById("confirmar_senha").addEventListener("blur", function(){
     if(senhamaiuscula == false){
         fnAdicionarMensagemDeErro("mensagem-erro-confirmar-senha", "A senha precisa ter pelo menos uma letra maiúscula")
     }
+
+    let senhacaracterespecial = fnValidarSenhaCaracterEspecial(this.value)
+    if(senhacaracterespecial == false){
+        fnAdicionarMensagemDeErro("mensagem-erro-confirmar-senha", "A senha precisa ter pelo menos um caracter especial")
+    }   
 })
