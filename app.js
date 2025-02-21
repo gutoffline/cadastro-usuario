@@ -1,9 +1,13 @@
 document.getElementById("nome").addEventListener("blur", function(){
-    let nomevalido = fnValidarMinimoDeCaracteres(3, this.value)
+    fnAdicionarMensagemDeErro("mensagem-erro-nome", "limpar")
+    
+    let nomevalido = fnValidarMinimoDeCaracteres(3, this.value);   
     if(nomevalido == false){
-        document.getElementById("mensagem-erro-nome").style.display = "block";
-        document.getElementById("mensagem-erro-nome").innerHTML = "a quantidade de caracteres mínimas é 3"
-    }else{
-        document.getElementById("mensagem-erro-nome").style.display = "none";
+        fnAdicionarMensagemDeErro("mensagem-erro-nome", "mínimo 3 caracteres")
+    }
+
+    let nomeobrigatorio = fnValidarCampoObriatorio(this.value);
+    if(nomeobrigatorio == false){
+        fnAdicionarMensagemDeErro("mensagem-erro-nome", "campo obrigatório")
     }
 })

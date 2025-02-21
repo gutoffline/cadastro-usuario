@@ -19,7 +19,7 @@
 - **máximo 60 caracteres**
 - **campo obrigatório**
 - obrigatório letra maiúscula
-- obrigatório letra caractere especial
+- obrigatório caractere especial
 
 ### Confirmar Senha
 - **mínimo 8 caracteres**
