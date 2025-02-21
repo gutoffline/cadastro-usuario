@@ -54,3 +54,12 @@ function fnValidarSenhaCaracterEspecial(senha){
         return false;
     }
 }
+
+function fnValidarEmail(email){
+    let regex = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?$/;
+    if(regex.test(email)){
+        return true;
+    }else{
+        return false;
+    }
+}
