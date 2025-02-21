@@ -2,7 +2,9 @@
 ## Regras
 ### Nome
 - **mínimo 5 caracteres**
+    - Mensagem de erro
 - **máximo 60 caracteres**
+    - mensagem de erro
 - **campo obrigatório**
 
 ### E-mail
