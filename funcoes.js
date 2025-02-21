@@ -29,3 +29,10 @@ function fnAdicionarMensagemDeErro(id_mensagem, mensagem){
     }
 }
 
+function fnValidarSenhaIgual(confirmar_senha, senha){
+    if(confirmar_senha != senha){
+        return false;
+    }else{
+        return true;
+    }
+}
